@@ -1,0 +1,51 @@
+Pais,Continente,Categoria
+Canada,North America,canon
+Yukon,North America,globo
+Alaska,North America,barco
+Greenland,North America,globo
+Oregon,North America,canon
+California,North America,canon
+Mexico,North America,canon
+New York (state)|New York,North America,barco
+Newfoundland (island)|Terranova,North America,canon
+Labrador,North America,canon
+Great Britain,Europe,barco
+Iceland,Europe,barco
+Spain,Europe,globo
+France,Europe,globo
+Germany,Europe,barco
+Italy,Europe,globo
+Poland,Europe,canon
+Russia,Europe,globo
+Sweden,Europe,barco
+Arabia,Asia,canon
+Aral Kazakhstan|Aral,Asia,canon
+China,Asia,barco
+India,Asia,globo
+Iran,Asia,globo
+Tartary,Asia,canon
+Taymyr Autonomous Okrug|Taymyr,Asia,comodin
+Japan,Asia,canon
+Kamchatka,Asia,globo
+Siberia,Asia,barco
+Mongolia,Asia,barco
+Gobi,Asia,globo
+Malaysia,Asia,canon
+Turkey,Asia,barco
+Israel,Asia,barco
+Argentina,South America,comodin
+Brazil,South America,barco
+Peru,South America,barco
+Colombia,South America,globo
+Chile,South America,globo
+Uruguay,South America,globo
+Sahara,Africa,canon
+Ethiopia,Africa,globo
+Egypt,Africa,globo
+Madagascar,Africa,barco
+Zaire,Africa,barco
+South Africa,Africa,canon
+Sumatra,Oceania,globo
+Borneo,Oceania,barco
+Java,Oceania,canon
+Australia,Oceania,canon

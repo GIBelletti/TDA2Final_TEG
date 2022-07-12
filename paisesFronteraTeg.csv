@@ -1,0 +1,90 @@
+Pais,frontera,tipo
+Canada,Newfoundland (island)|Terranova,terrestre
+Canada,New York (state)|New York,terrestre
+Canada,Oregon,terrestre
+Canada,Yukon,terrestre
+Yukon,Alaska,terrestre
+Yukon,Oregon,terrestre
+Alaska,Oregon,terrestre
+Alaska,Kamchatka,marina
+Greenland,New York (state)|New York,marina
+Greenland,Labrador,marina
+Greenland,Iceland,marina
+Oregon,California,terrestre
+Oregon,New York (state)|New York,terrestre
+California,New York (state)|New York,terrestre
+California,Mexico,terrestre
+Mexico,Colombia,terrestre
+New York (state)|New York,Newfoundland (island)|Terranova,terrestre
+Newfoundland (island)|Terranova,Labrador,terrestre
+Great Britain,Spain,marina
+Great Britain,Germany,marina
+Great Britain,Iceland,marina
+Iceland,Sweden,marina
+Spain,Sahara,marina
+Spain,France,terrestre
+France,Germany,terrestre
+France,Italy,terrestre
+Germany,Italy,terrestre
+Germany,Poland,terrestre
+Poland,Russia,terrestre
+Poland,Turkey,terrestre
+Poland,Egypt,marina
+Russia,Turkey,terrestre
+Russia,Sweden,terrestre
+Russia,Iran,terrestre
+Russia,Aral Kazakhstan|Aral,terrestre
+Arabia,Israel,terrestre
+Arabia,Turkey,terrestre
+Aral Kazakhstan|Aral,Iran,terrestre
+Aral Kazakhstan|Aral,Tartary,terrestre
+Aral Kazakhstan|Aral,Siberia,terrestre
+Aral Kazakhstan|Aral,Mongolia,terrestre
+China,Iran,terrestre
+China,Mongolia,terrestre
+China,Siberia,terrestre
+China,India,terrestre
+China,Gobi,terrestre
+China,Kamchatka,terrestre
+China,Malaysia,terrestre
+China,Japan,marina
+India,Iran,terrestre
+India,Malaysia,terrestre
+India,Sumatra,marina
+Iran,Gobi,terrestre
+Iran,Mongolia,terrestre
+Iran,Turkey,terrestre
+Tartary,Taymyr Autonomous Okrug|Taymyr,terrestre
+Tartary,Siberia,terrestre
+Taymyr Autonomous Okrug|Taymyr,Siberia,terrestre
+Japan,Kamchatka,marina
+Kamchatka,Siberia,terrestre
+Siberia,Mongolia,terrestre
+Mongolia,Gobi,terrestre
+Malaysia,Borneo,marina
+Turkey,Israel,terrestre
+Turkey,Egypt,marina
+Israel,Egypt,marina
+Argentina,Brazil,terrestre
+Argentina,Peru,terrestre
+Argentina,Chile,terrestre
+Argentina,Uruguay,terrestre
+Brazil,Uruguay,terrestre
+Brazil,Peru,terrestre
+Brazil,Colombia,terrestre
+Brazil,Sahara,marina
+Peru,Colombia,terrestre
+Peru,Chile,terrestre
+Chile,Australia,marina
+Sahara,Ethiopia,terrestre
+Sahara,Egypt,terrestre
+Sahara,Zaire,terrestre
+Ethiopia,Zaire,terrestre
+Ethiopia,Egypt,terrestre
+Ethiopia,South Africa,terrestre
+Egypt,Madagascar,marina
+Madagascar,Zaire,marina
+Zaire,South Africa,terrestre
+Sumatra,Australia,marina
+Borneo,Australia,marina
+Java,Australia,marina
