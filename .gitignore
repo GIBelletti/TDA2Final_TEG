@@ -1,2 +1,4 @@
 
 .idea
+social_networks_utils_main/__pycache__
+*.pyc
