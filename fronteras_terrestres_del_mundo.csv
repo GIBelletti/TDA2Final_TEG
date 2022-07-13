@@ -13,8 +13,8 @@ China,Pakistán
 China,Rusia
 China,Tayikistán
 China,Vietnam
-China,Hong Kong[1]​
-China,Macao[1]​
+China,Hong Kong
+China,Macao
 Rusia,Azerbaiyán
 Rusia,Bielorrusia
 Rusia,China
@@ -24,15 +24,15 @@ Rusia,Finlandia
 Rusia,Georgia
 Rusia,Kazajistán
 Rusia,Letonia
-Rusia,Lituania[2]​
+Rusia,Lituania
 Rusia,Mongolia
 Rusia,Noruega
-Rusia,Polonia[2]​
+Rusia,Polonia
 Rusia,Ucrania
 Brasil,Argentina
 Brasil,Bolivia
 Brasil,Colombia
-Brasil,Francia[3]​
+Brasil,Francia
 Brasil,Guyana
 Brasil,Paraguay
 Brasil,Perú
@@ -45,14 +45,14 @@ India,Birmania
 India,China
 India,Nepal
 India,Pakistán
-Estados Unidos,Canadá[4]​
+Estados Unidos,Canadá
 Estados Unidos,México
 Kazajistán,China
 Kazajistán,Kirguistán
 Kazajistán,Rusia
 Kazajistán,Turkmenistán
 Kazajistán,Uzbekistán
-República Democrática del Congo,Angola[5]​
+República Democrática del Congo,Angola
 República Democrática del Congo,Burundi
 República Democrática del Congo,República Centroafricana
 República Democrática del Congo,República del Congo
@@ -63,10 +63,10 @@ República Democrática del Congo,Uganda
 República Democrática del Congo,Zambia
 Argentina,Bolivia
 Argentina,Brasil
-Argentina,Chile[6]​
+Argentina,Chile
 Argentina,Paraguay
 Argentina,Uruguay
-Canadá,Estados Unidos[4]​
+Canadá,Estados Unidos
 Mongolia,China
 Mongolia,Rusia
 Malí,Argelia
@@ -103,13 +103,13 @@ Argelia,Marruecos
 Argelia,Mauritania
 Argelia,Níger
 Argelia,Túnez
-Argelia,Sahara Occidental[8]​
+Argelia,Sahara Occidental
 Uzbekistán,Afganistán
 Uzbekistán,Kazajistán
 Uzbekistán,Kirguistán
 Uzbekistán,Tayikistán
 Uzbekistán,Turkmenistán
-Chile,Argentina[6]​
+Chile,Argentina
 Chile,Bolivia
 Chile,Perú
 Colombia,Brasil
@@ -149,7 +149,7 @@ Afganistán,Pakistán
 Afganistán,Tayikistán
 Afganistán,Turkmenistán
 Afganistán,Uzbekistán
-República del Congo,Angola[9]​
+República del Congo,Angola
 República del Congo,Camerún
 República del Congo,Gabón
 República del Congo,República Centroafricana
@@ -168,8 +168,8 @@ Etiopía,Sudán
 Etiopía,Sudán del Sur
 Etiopía,Yibuti
 Angola,Namibia
-Angola,República Democrática del Congo[5]​
-Angola,República del Congo[9]​
+Angola,República Democrática del Congo
+Angola,República del Congo
 Angola,Zambia
 Laos,Birmania
 Laos,Camboya
@@ -178,7 +178,7 @@ Laos,Tailandia
 Laos,Vietnam
 Mauritania,Argelia
 Mauritania,Malí
-Mauritania,Sahara Occidental[8]​
+Mauritania,Sahara Occidental
 Mauritania,Senegal
 Venezuela,Brasil
 Venezuela,Colombia
@@ -204,7 +204,7 @@ Ucrania,Eslovaquia
 Ucrania,Hungría
 Ucrania,Moldavia
 Ucrania,Polonia
-Ucrania,Rumania[10]​
+Ucrania,Rumania
 Ucrania,Rusia
 Vietnam,Camboya
 Vietnam,China
@@ -239,17 +239,17 @@ México,Estados Unidos
 México,Guatemala
 Bangladés,Birmania
 Bangladés,India
-Francia[11]​,Alemania
-Francia[11]​,Andorra
-Francia[11]​,Bélgica
-Francia[11]​,Brasil[3]​
-Francia[11]​,España
-Francia[11]​,Italia
-Francia[11]​,Luxemburgo
-Francia[11]​,Mónaco
-Francia[11]​,Países Bajos
-Francia[11]​,Suiza
-Francia[11]​,Surinam[3]​
+Francia,Alemania
+Francia,Andorra
+Francia,Bélgica
+Francia,Brasil
+Francia,España
+Francia,Italia
+Francia,Luxemburgo
+Francia,Mónaco
+Francia,Países Bajos
+Francia,Suiza
+Francia,Surinam
 Nigeria,Benín
 Nigeria,Camerún
 Nigeria,Chad
@@ -351,7 +351,7 @@ Polonia,Alemania
 Polonia,Bielorrusia
 Polonia,Lituania
 Polonia,República Checa
-Polonia,Rusia[2]​
+Polonia,Rusia
 Polonia,Eslovaquia
 Polonia,Ucrania
 Uganda,Kenia
@@ -368,7 +368,7 @@ Malasia,Tailandia
 Egipto,Israel
 Egipto,Libia
 Egipto,Sudán
-Egipto,Franja de Gaza (Territorios Palestinos)[12]​
+Egipto,Franja de Gaza (Territorios Palestinos)
 Senegal,Gambia
 Senegal,Guinea
 Senegal,Guinea-Bisáu
@@ -403,7 +403,7 @@ Rumania,Bulgaria
 Rumania,Hungría
 Rumania,Moldavia
 Rumania,Serbia
-Rumania,Ucrania[10]​
+Rumania,Ucrania
 Somalia,Etiopía
 Somalia,Kenia
 Somalia,Yibuti
@@ -430,11 +430,11 @@ Ghana,Burkina Faso
 Ghana,Costa de Marfil
 Ghana,Togo
 Marruecos,Argelia
-Marruecos,España[13]​
-Marruecos,Sahara Occidental[8]​
-Sahara Occidental[8]​,Argelia
-Sahara Occidental[8]​,Mauritania
-Sahara Occidental[8]​,Marruecos
+Marruecos,España
+Marruecos,Sahara Occidental
+Sahara Occidental,Argelia
+Sahara Occidental,Mauritania
+Sahara Occidental,Marruecos
 Serbia,Albania
 Serbia,Bosnia-Herzegovina
 Serbia,Bulgaria
@@ -462,9 +462,9 @@ Italia,Suiza
 Italia,Vaticano
 España,Andorra
 España,Francia
-España,Marruecos[13]​
+España,Marruecos
 España,Portugal
-España,Reino Unido[14]​
+España,Reino Unido
 República Checa,Alemania
 República Checa,Austria
 República Checa,Eslovaquia
@@ -482,7 +482,7 @@ Bulgaria,Turquía
 Yemen,Arabia Saudita
 Yemen,Omán
 Surinam,Brasil
-Surinam,Francia[3]​
+Surinam,Francia
 Surinam,Guyana
 Guatemala,Belice
 Guatemala,El Salvador
@@ -506,7 +506,7 @@ Jordania,Arabia Saudita
 Jordania,Irak
 Jordania,Israel
 Jordania,Siria
-Jordania,Cisjordania (Territorios Palestinos)[12]​
+Jordania,Cisjordania (Territorios Palestinos)
 Eslovaquia,Austria
 Eslovaquia,Hungría
 Eslovaquia,Polonia
@@ -540,7 +540,7 @@ Eslovenia,Italia
 Lituania,Bielorrusia
 Lituania,Letonia
 Lituania,Polonia
-Lituania,Rusia[2]​
+Lituania,Rusia
 Armenia,Azerbaiyán
 Armenia,Georgia
 Armenia,Irán
@@ -558,14 +558,14 @@ Letonia,Lituania
 Letonia,Rusia
 Bután,China
 Bután,India
-Países Bajos[15]​,Alemania
-Países Bajos[15]​,Bélgica
-Países Bajos[15]​,Francia[16]​
+Países Bajos,Alemania
+Países Bajos,Bélgica
+Países Bajos,Francia
 Israel,Egipto
 Israel,Jordania
 Israel,Líbano
 Israel,Siria
-Israel,Palestina[12]​
+Israel,Palestina
 Burundi,República Democrática del Congo
 Burundi,Ruanda
 Burundi,Tanzania
@@ -609,12 +609,12 @@ Suazilandia,Sudáfrica
 Yibuti,Eritrea
 Yibuti,Etiopía
 Yibuti,Somalia
-Reino Unido[18]​,Chipre[19]​
-Reino Unido[18]​,España
-Reino Unido[18]​,Irlanda
-Palestina[12]​,Egipto
-Palestina[12]​,Israel
-Palestina[12]​,Jordania
+Reino Unido,Chipre
+Reino Unido,España
+Reino Unido,Irlanda
+Palestina,Egipto
+Palestina,Israel
+Palestina,Jordania
 Kuwait,Arabia Saudita
 Kuwait,Irak
 Belice,Guatemala
@@ -630,7 +630,7 @@ Luxemburgo,Bélgica
 Luxemburgo,Francia
 Corea del Sur,Corea del Norte
 Timor Oriental,Indonesia
-Chipre,Reino Unido[19]​
+Chipre,Reino Unido
 Andorra,España
 Andorra,Francia
 Liechtenstein,Austria
