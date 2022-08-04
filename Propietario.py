@@ -22,13 +22,18 @@ def obtener_orden_de_propietarios(cantidad_de_jugadores=6):
         resultado.append(jugador)
         cantidad_otorgada[jugador] += 1
         restantes -= 1
-    while sobrante > 0:
-        posibles_jugadores = obtener_jugadores_con_menos_paises(cantidad_otorgada,
-                                                                PROPIETARIOS_COLORES[:cantidad_de_jugadores - 1])
-        nuevo_propietario = obtener_desenpate_por_mayor_dado(posibles_jugadores)
-        resultado.append(nuevo_propietario)
-        cantidad_otorgada[nuevo_propietario] += 1
-        sobrante -= 1
+    # while sobrante > 0:
+    #     posibles_jugadores = obtener_jugadores_con_menos_paises(cantidad_otorgada,
+    #                                                             PROPIETARIOS_COLORES[:cantidad_de_jugadores - 1])
+    #     nuevo_propietario = obtener_desenpate_por_mayor_dado(posibles_jugadores)
+    #     resultado.append(nuevo_propietario)
+    #     cantidad_otorgada[nuevo_propietario] += 1
+    #     sobrante -= 1
+
+    posibles_jugadores = obtener_jugadores_con_menos_paises(cantidad_otorgada,
+                                                            PROPIETARIOS_COLORES[:cantidad_de_jugadores - 1])
+    resultado += obtener_desenpate_por_mayor_dado(posibles_jugadores)
+    return resultado
 
 
 def obtener_jugadores_con_menos_paises(cantidad_otorgada, jugadores):
@@ -46,23 +51,21 @@ def obtener_jugadores_con_menos_paises(cantidad_otorgada, jugadores):
 
 
 def obtener_desenpate_por_mayor_dado(jugadores):
-    """Siguiendo las reglas del TEG genera un desenpate"""
-    if len(jugadores) == 1:
-        return jugadores[0]
-    dados = {}
-    max = 0
+    """Siguiendo las reglas del TEG genera un desenpate por los 2 paises restantes"""
+    valores = {1: [], 2: [], 3: [], 4: [], 5: [], 6: []}
+    maximo = 0
     for jugador in jugadores:
         valor_dado = random.randint(1, 6)
-        dados[jugador] = valor_dado
-        if max < valor_dado:
-            max = valor_dado
-    vitoriosos = []
-    for jugador in jugadores:
-        if dados[jugador] < max:
-            continue
-        vitoriosos.append(jugador)
-    return obtener_desenpate_por_mayor_dado(vitoriosos)
-
+        valores[valor_dado].append(jugador)
+        if maximo < valor_dado:
+            maximo = valor_dado
+    mejores = valores[maximo]
+    while len(mejores) < 2:
+        maximo -= 1
+        mejores += valores[maximo]
+    if len(mejores) == 2:
+        return mejores
+    return obtener_desenpate_por_mayor_dado(mejores)
 
 class Propietario_TEG:
     def __init__(self, propietario):
@@ -70,10 +73,11 @@ class Propietario_TEG:
         self.ejercitos = 1
 
     def propietario(self):
-        return self.propietario()
+        return self.propietario
 
-    def defender(self, atacante, cantidad_ejercito):
+    def defender(self, atacante):
         """Retorna True si se logro defender, False si cambio de propietario"""
+        cantidad_ejercito = atacante.ejercitos_de_ofensiva()
         bajas = self._combate(cantidad_ejercito)
         atacante.desplazar(bajas)
         if self.ejercitos == 0:
@@ -106,3 +110,15 @@ class Propietario_TEG:
             else:
                 bajas_atacantes += 1
         return bajas_atacantes
+
+    def puede_atacar(self):
+        return self.ejercitos > 1
+
+    def ejercitos_de_ofensiva(self):
+        atacantes = self.ejercitos - 1
+        if atacantes > 3:
+            atacantes = 3
+        return atacantes
+
+    def es_limitrofe(self, otro):
+        return otro.propietario() != self.propietario
