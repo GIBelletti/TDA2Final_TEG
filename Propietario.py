@@ -3,7 +3,8 @@ import random
 PROPIETARIOS_COLORES = ["Negro", "Rojo", "Amarillo", "Verde", "Azul", "Magenta"]
 PAISES_A_REPARTIR = 50
 
-def obtener_orden_de_propietarios(cantidad_de_jugadores = 6):
+
+def obtener_orden_de_propietarios(cantidad_de_jugadores=6):
     """Retorna una lista de 50 valores uniformememente distribuidos segun la cantidad de jugadores.
     En el caso de que no sea posible dar una distribucion uniforme se usara las reglas del TEG
     para seleccionar los restantes."""
@@ -22,8 +23,27 @@ def obtener_orden_de_propietarios(cantidad_de_jugadores = 6):
         cantidad_otorgada[jugador] += 1
         restantes -= 1
     while sobrante > 0:
-        resultado.append(obtener_desenpate_por_mayor_dado(PROPIETARIOS_COLORES[:cantidad_de_jugadores-1]))#verificar
+        posibles_jugadores = obtener_jugadores_con_menos_paises(cantidad_otorgada,
+                                                                PROPIETARIOS_COLORES[:cantidad_de_jugadores - 1])
+        nuevo_propietario = obtener_desenpate_por_mayor_dado(posibles_jugadores)
+        resultado.append(nuevo_propietario)
+        cantidad_otorgada[nuevo_propietario] += 1
         sobrante -= 1
+
+
+def obtener_jugadores_con_menos_paises(cantidad_otorgada, jugadores):
+    resultado = []
+    minimo = 50
+    for jugador in jugadores:
+        cantidad = cantidad_otorgada[jugador]
+        if cantidad < minimo:
+            resultado = []
+            minimo = cantidad_otorgada[jugador]
+            resultado.append(jugador)
+        elif cantidad == minimo:
+            resultado.append(jugador)
+    return resultado
+
 
 def obtener_desenpate_por_mayor_dado(jugadores):
     """Siguiendo las reglas del TEG genera un desenpate"""
@@ -42,6 +62,7 @@ def obtener_desenpate_por_mayor_dado(jugadores):
             continue
         vitoriosos.append(jugador)
     return obtener_desenpate_por_mayor_dado(vitoriosos)
+
 
 class Propietario_TEG:
     def __init__(self, propietario):
