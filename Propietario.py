@@ -3,6 +3,10 @@ import random
 PROPIETARIOS_COLORES = ["Negro", "Rojo", "Amarillo", "Verde", "Azul", "Magenta"]
 PAISES_A_REPARTIR = 50
 
+def obtener_orden_de_turnos_de_jugadores(cantidad_de_jugadores=6):
+    posibles = PROPIETARIOS_COLORES[:cantidad_de_jugadores]
+    random.shuffle(posibles)
+    return posibles
 
 def obtener_orden_de_propietarios(cantidad_de_jugadores=6):
     """Retorna una lista de 50 valores uniformememente distribuidos segun la cantidad de jugadores.
