@@ -26,7 +26,7 @@ def graficar_significant_profiles_conjuntos(sps, labels, extra_text):
     mul = 1
     impariedad = 1 - len(sps) % 2
     for i in range(len(sps)):
-        ax.bar(x + prop * mul * width + impariedad * width / 2 , sps[i], width, label=labels[i])
+        ax.bar(x + prop * mul * width + impariedad * width / 2, sps[i], width, label=labels[i])
         mul *= (-1)
         if (i % 2) == 0:
             prop += 1
